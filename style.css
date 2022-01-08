@@ -10,9 +10,9 @@ body {
     text-align: right;
   }
 
-  h1.image {
-    width: 100px;
-    height: 200px;
+  image {
+    viewport-length: 100px;
+    viewport-fit: auto;
   }
 
   h2 {
