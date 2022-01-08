@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: grey;
     font-family: 'Georgia';
     font-size: 20px;
   }
@@ -11,11 +11,25 @@ body {
   }
 
   image {
-    viewport-length: 100px;
+    
     viewport-fit: auto;
   }
 
   h2 {
     color: #666666;
     text-shadow: 1px 1px 3px #666666;
+  }
+
+  a:link {
+    color: blue;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: blueviolet;
+  }
+
+  a:hover {
+    color: blue;
+    text-decoration: underline;
   }
