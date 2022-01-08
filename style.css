@@ -9,3 +9,13 @@ body {
     margin-left: 20px;
     text-align: right;
   }
+
+  h1.image {
+    width: 100px;
+    height: 200px;
+  }
+
+  h2 {
+    color: #666666;
+    text-shadow: 1px 1px 3px #666666;
+  }
