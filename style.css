@@ -27,6 +27,7 @@ div {
     padding-bottom: 10px;
     padding-left: 15px;   
     padding-right: 15px;   
+    border-radius: 5px;
 }
 
 img {
