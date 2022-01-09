@@ -23,6 +23,8 @@ div {
     transparency: 75%;
     width: 95%;
     height: 300px;
+    padding-top: 8px;
+    padding-bottom: 10px;
     padding-left: 15px;   
     padding-right: 15px;   
 }
