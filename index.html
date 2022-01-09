@@ -3,47 +3,69 @@
 <head>
     <meta charset="UTF-8">
 
-    <!-- need viewport here -->
-   <!-- <meta name="viewport" content="witdth=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="witdth=device-width, initial-scale=1.0">
+    
     <title>Landing Page</title><meta name="description" content="Home page for my WDD230 class">
     
-    <link  rel="css/style.css" type="text/css" rel="stylesheet"/>
-    <!-- <link  href="css/example.css" type="text/css" rel="stylesheet"/> -->
+    <link href="style.css" rel="stylesheet">
     
-    <script src="jstemplate.js" defer>  </script>
-
+    
+    
+            <!-- link the javascript elements on a seperate page in the future... 
+                <link href="jstemplate.js" type="text/java" rel="javascript">
+                    or
+                <script src="jstemplate.js" defer>  </script> 
+                    or
+                <script type = "text/javascript" src="jstemplate.js">
+            -->
+    
+    
+    </script>
 </head>
 <body>
     <header>
-      
-        <h1><img src="Drew1.jpg"> Andrew Nash</h1>    <!--<img> image of me to the left of my name -->
-        <h2>WDD 230: Assignment Portal</h2>
-        
+        <div>
+            <h1><img src="Drew1.jpg"> Andrew Nash</h1>
+            <h2>WDD 230: Assignment Portal</h2>
+        </div>
         <main>
-            <li>Lesson 02: Title</li>   <!-- the word 'Title' on each of these should be a link (blue)-->
-            <li>Lesson 03: Title</li>   <!-- the Title link doesn't have to go anywhere yet (?)-->
-            <li>Lesson 04: Title</li>
-            <li>Lesson 05: Title</li>
-            <li>Lesson 06: Title</li>
-            <li>Lesson 07: Title</li>
-            <li>Lesson 08: Title</li>
-            <li>Lesson 09: Title</li>
-            <li>Lesson 10: Title</li>
-            <li>Lesson 11: Title</li>
+            <li>Lesson 02: <a href="https://en.wikipedia.org/wiki/List_of_fictional_ducks">Title</a></li>
+            <li>Lesson 03: <a href="https://en.wikipedia.org/wiki/List_of_fictional_ducks">Title</a></li>
+            <li>Lesson 04: <a href="https://en.wikipedia.org/wiki/List_of_fictional_ducks">Title</a></li>
+            <li>Lesson 05: <a href="https://en.wikipedia.org/wiki/List_of_fictional_ducks">Title</a></li>
+            <li>Lesson 06: <a href="https://en.wikipedia.org/wiki/List_of_fictional_ducks">Title</a></li>
+            <li>Lesson 07: <a href="https://en.wikipedia.org/wiki/List_of_fictional_ducks">Title</a></li>
+            <li>Lesson 08: <a href="https://en.wikipedia.org/wiki/List_of_fictional_ducks">Title</a></li>
+            <li>Lesson 09: <a href="https://en.wikipedia.org/wiki/List_of_fictional_ducks">Title</a></li>
+            <li>Lesson 10: <a href="https://en.wikipedia.org/wiki/List_of_fictional_ducks">Title</a></li>
+            <li>Lesson 11: <a href="https://en.wikipedia.org/wiki/List_of_fictional_ducks">Title</a></li>
             <hr/>
         <p>Some lessons may need more than one activity link/assignment link.</p>
-    </header>
-    
+
     </main>
+    </header>
 <br>
 
 <footer>
-    <p>© 2022 .:|:. Andrew Nash .:|:. NC </p>  <!--is this supposed to have my home state, the school state or something else?-->
-  <p>Last modified:   </p> </p><script>(last_mod); </script>
+  <div>  
+    <p>© 2022 .:|:. Andrew Nash .:|:. NC </p>
+  
+ 
+      <!--<p id="last_mdy"> </p>-->
+      
+  console.log("Last updated: " + updates);
+   
+      <script>
+       
+        function updates() {
+            let mod_date = document.lastModified;
+            document.getElementById("last_mdy").innerHTML = mod_date;
+        }
+    </script>   
+      
+  
+  </div>
 
-
-<!-- dont use document.write for javascript in this class!!!!-->
-<!-- Last Updated: 1/6/2022 05:57:00 PM <<<< this date should change to be the current time-->
 
 </footer>
 </body>
