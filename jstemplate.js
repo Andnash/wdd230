@@ -16,6 +16,12 @@ document.write('<h3>' + greeting + '</h3>');
 
 or 
 
-var string = document.lastModified; */
+var string = document.lastModified; 
 
 let last_mod = new Date(document.lastModified);
+*/
+
+function moddate() {
+            let last_mod = document.lastModified;
+            document.getElementById("recentdate").innerHTML = last_mod;
+        }
