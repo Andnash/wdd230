@@ -15,11 +15,15 @@ if (hourNow > 18) {
 document.write('<h3>' + greeting + '</h3>');
 
 or 
+let last_mod = document.getElementById('last_mod');
 
-var string = document.lastModified; */
+or
+var string = document.lastModified; 
+  
+}*/
+
 
 let last_mod = new Date(document.lastModified);
-  let last_mod = document.getElementById('last_mod');
   
-}
+
 
