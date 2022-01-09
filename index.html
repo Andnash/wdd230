@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
 
-    <!-- need viewport here -->
-    <!-- <meta name="viewport" content="witdth=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="witdth=device-width, initial-scale=1.0">
     
     <title>Landing Page</title><meta name="description" content="Home page for my WDD230 class">
     
     <link href="style.css" rel="stylesheet">
     
-    <!-- <link href="jstemplate.js" type="text/java" rel="javascript"> -->
-    <!--<script src="jstemplate.js" defer>  </script> -->
     
-    <script type = "text/javascript" src="jstemplate.js">
+    
+            <!-- link the javascript elements on a seperate page in the future... 
+
+                <link href="jstemplate.js" type="text/java" rel="javascript">
+                    or
+                <script src="jstemplate.js" defer>  </script> 
+                    or
+                <script type = "text/javascript" src="jstemplate.js">
+            -->
+    
     
     </script>
 </head>
@@ -45,7 +51,16 @@
   <div>  
     <p>© 2022 .:|:. Andrew Nash .:|:. NC </p>
   
-  <p>Last updated: <p id="recentdate"></p></p>     
+ 
+      <p>Last updated: <p id="last_mdy"></p></p>
+  
+    <script>
+        /* Function to use lastModified property */
+        function geeks() {
+            let mod_date = document.lastModified;
+            document.getElementById("last_mdy").innerHTML = mod_date;
+        }
+    </script>   
       
   
   </div>
