@@ -52,10 +52,12 @@
     <p>© 2022 .:|:. Andrew Nash .:|:. NC </p>
   
  
-      <p id="last_mdy"> </p>
-  
-    <script>
-        console.log("Last updated: " + updates());
+      <!--<p id="last_mdy"> </p>-->
+      
+  console.log("Last updated: " + updates);
+   
+      <script>
+       
         function updates() {
             let mod_date = document.lastModified;
             document.getElementById("last_mdy").innerHTML = mod_date;
