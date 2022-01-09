@@ -17,8 +17,8 @@ header {
   }
 
   image {
-    
-    viewport-fit: auto;
+    max-height: 100px;
+    width: auto;
   }
 
   h2 {
