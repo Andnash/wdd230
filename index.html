@@ -12,6 +12,7 @@
     
     
             <!-- link the javascript elements on a seperate page in the future... 
+
                 <link href="jstemplate.js" type="text/java" rel="javascript">
                     or
                 <script src="jstemplate.js" defer>  </script> 
@@ -51,12 +52,13 @@
     <p>© 2022 .:|:. Andrew Nash .:|:. NC </p>
   
  
-      <!--<p id="last_mdy"> </p>-->
+      <p id="last_mdy"></p>
       
-  console.log("Last updated: " + updates);
+ 
    
       <script>
-       
+        console.log("Last updated: " + updates); 
+          
         function updates() {
             let mod_date = document.lastModified;
             document.getElementById("last_mdy").innerHTML = mod_date;
