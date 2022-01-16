@@ -1,4 +1,32 @@
 body {
     display: grid;
-    
+    background-color: whitesmoke;
+    font-family: 'Georgia';
+    font-size: 14px;
+    padding: 8px;
+}
+
+h1 {
+    padding-right: 15px;
+    color: rgb(145, 7, 7);
+    margin-left: 20px;
+    font-family: 'Libre Baskerville', serif;
+
+img {
+    max-height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+
+h1 {
+    padding-right: 15px;
+    color: rgb(145, 7, 7);
+    margin-left: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    color: black;
+    text-shadow: 1px 1px 3px #666666;
 }
