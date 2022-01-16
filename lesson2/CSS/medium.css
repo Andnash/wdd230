@@ -1,18 +1,15 @@
-
-
-
-    @media only screen and (min-width: 32.5em) {
-        body {
-            background-color: 'white';
-        }
-
-        h1 {
-            font-family: 'Libre Baskerville', serif;
-        }
-        
-        h2 {
-            color: black;
-        }
+@media only screen and (min-width: 32.5em) {
+    body {
+        background-color: whitesmoke;
     }
+
+    h1 {
+        font-family: 'Libre Baskerville', serif;
+    }
+        
+    h2 {
+        color: black;
+    }
+}
 
    
