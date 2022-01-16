@@ -1,0 +1,23 @@
+
+body {
+    background-color: grey;
+    font-family: 'Georgia';
+    font-size: 20px;
+    padding: 10px;
+
+    @media (min-width: 32.5em) body {
+        background-color: 'white';
+    }
+    
+h1 {
+    color: rgb(145, 7, 7);
+    margin-left: 20px;
+    text-align: float;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+
+h2 {
+    color: black;
+    text-shadow: 1px 1px 3px #666666;
+    }
