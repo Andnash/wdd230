@@ -1,6 +1,7 @@
 
 body {
   background-color: whitesmoke;
+  flex: content;
   align-content: center;
   font-family: 'Georgia';
   font-size: 14px;
